@@ -1,0 +1,15 @@
+{
+  "name": "@serviceos/plugin-marketplace",
+  "version": "1.0.0",
+  "description": "Plugin marketplace for ServiceOS platform extensibility",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@serviceos/shared": "workspace:*",
+    "@serviceos/plugin-system": "workspace:*",
+    "@serviceos/database": "workspace:*"
+  }
+}

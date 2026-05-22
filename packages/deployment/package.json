@@ -1,0 +1,13 @@
+{
+  "name": "@serviceos/deployment",
+  "version": "1.0.0",
+  "description": "Deployment guides and infrastructure templates for ServiceOS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@serviceos/shared": "workspace:*"
+  }
+}

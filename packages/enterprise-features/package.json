@@ -1,0 +1,14 @@
+{
+  "name": "@serviceos/enterprise-features",
+  "version": "1.0.0",
+  "description": "Enterprise features for ServiceOS including advanced security and multi-tenancy",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@serviceos/shared": "workspace:*",
+    "@serviceos/database": "workspace:*"
+  }
+}

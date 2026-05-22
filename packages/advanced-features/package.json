@@ -1,0 +1,14 @@
+{
+  "name": "@serviceos/advanced-features",
+  "version": "1.0.0",
+  "description": "Advanced features including LLM integration, automation, and reporting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@serviceos/shared": "workspace:*",
+    "@serviceos/agent-core": "workspace:*"
+  }
+}
