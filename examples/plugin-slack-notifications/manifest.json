@@ -1,0 +1,14 @@
+{
+  "id": "plugin-slack-notifications",
+  "name": "Slack Notifications Plugin",
+  "version": "1.0.0",
+  "description": "Send workflow notifications to Slack channels",
+  "author": "ServiceOS Community",
+  "license": "MIT",
+  "serviceos": {
+    "minVersion": "1.0.0",
+    "hooks": ["workflow.onStart", "workflow.onComplete", "workflow.onError", "approval.created"],
+    "tools": ["sendSlackMessage"],
+    "permissions": ["read:workflows", "read:approvals", "external:slack"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "plugin-data-encryption",
+  "name": "Data Encryption Plugin",
+  "version": "1.0.0",
+  "description": "Encrypt sensitive workflow data at rest",
+  "author": "ServiceOS Community",
+  "license": "MIT",
+  "serviceos": {
+    "minVersion": "1.0.0",
+    "hooks": ["workflow.beforeSave", "workflow.afterLoad"],
+    "permissions": ["read:workflows", "write:workflows"]
+  }
+}

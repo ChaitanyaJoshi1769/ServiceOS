@@ -1,0 +1,16 @@
+{
+  "name": "@serviceos/benchmarks",
+  "version": "1.0.0",
+  "description": "Performance benchmarks for ServiceOS",
+  "main": "dist/index.js",
+  "scripts": {
+    "benchmark": "ts-node src/runner.ts",
+    "benchmark:workflow": "ts-node src/benchmarks/workflow.bench.ts",
+    "benchmark:agent": "ts-node src/benchmarks/agent.bench.ts",
+    "benchmark:database": "ts-node src/benchmarks/database.bench.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
