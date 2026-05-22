@@ -1,0 +1,20 @@
+{
+  "name": "@serviceos/compliance-core",
+  "version": "0.1.0",
+  "description": "Compliance and audit engine for ServiceOS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@serviceos/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}

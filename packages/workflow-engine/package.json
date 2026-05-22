@@ -1,0 +1,22 @@
+{
+  "name": "@serviceos/workflow-engine",
+  "version": "0.1.0",
+  "description": "Core workflow execution engine for ServiceOS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@serviceos/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.2"
+  }
+}
