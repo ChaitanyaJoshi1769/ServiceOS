@@ -1,0 +1,13 @@
+{
+  "name": "@serviceos/workflow-templates",
+  "version": "1.0.0",
+  "description": "Pre-built workflow templates for common business processes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@serviceos/types": "workspace:*"
+  }
+}
