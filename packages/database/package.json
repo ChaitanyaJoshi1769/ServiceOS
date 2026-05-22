@@ -1,0 +1,26 @@
+{
+  "name": "@serviceos/database",
+  "version": "0.1.0",
+  "description": "Database layer for ServiceOS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "migrate": "node dist/migrate.js",
+    "seed": "node dist/seed.js",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@serviceos/types": "workspace:*",
+    "pg": "^8.11.3",
+    "redis": "^4.6.12",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.11.2",
+    "typescript": "^5.3.2"
+  }
+}
